@@ -65,7 +65,7 @@ Item {
     id: scanProc
     command: ["bash", "-c",
       "for d in \"$HOME/Videos/Wallpapers\" \"$HOME/Videos\"; do " +
-      "[ -d \"$d\" ] && find \"$d\" -maxdepth 1 -type f " +
+      "[ -d \"$d\" ] && find -L \"$d\" -maxdepth 1 -type f " +
       "\\( -iname '*.mp4' -o -iname '*.mkv' -o -iname '*.webm' -o -iname '*.mov' -o -iname '*.avi' \\); " +
       "done | sort -u"]
     stdout: StdioCollector {

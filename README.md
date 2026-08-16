@@ -117,7 +117,7 @@ A playing wallpaper **resumes automatically after a reboot** — the plugin pers
 
 ## Supported Video Formats
 
-Anything QtMultimedia's FFmpeg backend can decode — `.mp4`, `.mkv`, `.webm`, `.mov`, `.avi`. H.264/H.265 MP4 is the safest bet for smooth looping.
+Anything QtMultimedia's FFmpeg backend can decode — `.mp4`, `.m4v`, `.mkv`, `.webm`, `.mov`, `.avi`. H.264/H.265 MP4 is the safest bet for smooth looping.
 
 ## Finding Video Wallpapers
 
